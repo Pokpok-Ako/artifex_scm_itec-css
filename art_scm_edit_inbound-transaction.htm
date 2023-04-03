@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Inbound Transaction</title>
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
+
+    <body>
+           
+                <h1 class="form-header">Inbound Transaction</h1>
+
+                
+
+            <table class="form-container">
+              <tr>
+                <td>
+                 <label class="form-label" for="Sname">Supplier name:</label>
+                 <input class="form-input" type="text" id="Sname" name="Sname" placeholder="Supplier name">
+                </td>
+              </tr>
+              <tr>
+                <td>
+                 <label class="form-label" for="address">Address:</label>
+                 <textarea class="form-input" name="message" colspan="30"required> Address
+                 </textarea> 
+                </td>
+              </tr>
+              <tr>
+                <td>
+                 <label class="form-label" for="Contact info">Contact no.:</label>
+                 <input class="form-input" type="tel" id="tel" name="tel" placeholder="Contact no.">
+                </td>
+             </tr>
+             <tr>
+                <td>
+                 <label class="form-label" for="Product">Product:</label>
+                 <input class="form-input" type="text" id="product" name="product" placeholder="Product">
+                </td>
+             </tr>
+            </table>
+            <br><br>
+            
+            <table class="form-container">
+            <tr>
+                <th>Item name</th> 
+                <th>Quantity</th>
+                <th>Amount</th>
+                <th>Order by</th>
+                <th>Mode of payment</th>
+                <th>Terms of Payment</th>
+                <th>Order Date</th>
+                <th>Status</th>
+            </tr>
+            <tr>
+                <td><select id="name" name="name">
+                    <option value="Caricature drawing">Caricature drawing</option>
+                    <option value="Cartoon drawing">Cartoon drawing</option>
+                    <option value="Figure drawing">Figure drawing</option>
+                    <option value="Gesture drawing">Gesture drawing</option>
+                    <option value="Line drawing">Line drawing</option>
+                    <option value="Perspective drawing">Perspective drawing</option>
+                    <option value="Photorealism">Photorealism</option>
+                    <option value="Pointillism">Pointillism</option></select>
+                </td>
+                <td><select id="quantity" name="quantity">
+                    <option value="quantity">1
+                    </option>
+                    <option value="quantity">2
+                    </option>
+                    <option value="quantity">3
+                    </option>
+                    <option value="quantity">4
+                    </option>
+                    <option value="quantity">5
+                    </option></select>
+                </td>
+                <td><select id="Amount" name="amount">
+                    <option value="amount">1000-2000php
+                    </option>
+                    <option value="quantity">2000-3000php
+                    </option>
+                    <option value="quantity">3000-4000php
+                    </option>
+                    <option value="quantity">4000-5000php
+                    </option>
+                    <option value="quantity">5000-6000php
+                    </option></select>
+                </td>
+                <td><select id="name" name="name">
+                    <option value="kean">Kean</option>
+                    <option value="jason">Jason</option>
+                    <option value="sean">Sean</option>
+                    <option value="ampoy">Ampoy</option>
+                    <option value="junjun">Junjun</option></select>
+                </td>
+                <td><select id="mode of payment" name="mode of payment">
+                    <option value="Cash
+                    ">Cash</option>
+                    <option value="Checks">Checks</option>
+                    <option value="Debit cards">Debit cards</option>
+                    <option value="Credit cards">Credit cards</option>
+                    <option value="Mobile payments">Mobile payments.</option><option value="Mobile payments">Mobile payments
+                    </option>
+                    </select>
+                </td>
+                <td><select id="terms of payment" name="Terms of payment">
+                    <option value="pia
+                    ">PIA/ Payment in advance</option>
+                    <option value="net">Payment expected within 90 days</option>
+                    <option value="EOM/ End of month">EOM/ End of month</option>
+                    <option value="MFI"> 21st of the month</option>
+                    <option value="COD">COD/ Cash on delivery</option><option value="CND">CND/ Cash next delivery
+                    </option>
+                    <option value="CBS">CBS/ Cash before shipment</option><option value="CIA">Cash in advance
+                    </option>
+                    </select>
+                </td>
+                <td>
+                    <input type="date" id="date" name="date" placeholder="03/26/02"required>
+                </td>
+                <td><select id="status" name="status">
+                    <option value="received
+                    ">Received</option>
+                    <option value="not yet received">Not yet received</option>
+                    </select>
+                </td> 
+            </tr>
+            <tr>
+                <td><select id="name" name="name">
+                    <option value="Caricature drawing">Caricature drawing</option>
+                    <option value="Cartoon drawing">Cartoon drawing</option>
+                    <option value="Figure drawing">Figure drawing</option>
+                    <option value="Gesture drawing">Gesture drawing</option>
+                    <option value="Line drawing">Line drawing</option>
+                    <option value="Perspective drawing">Perspective drawing</option>
+                    <option value="Photorealism">Photorealism</option>
+                    <option value="Pointillism">Pointillism</option></select>
+                </td>
+                <td><select id="quantity" name="quantity">
+                    <option value="quantity">1
+                    </option>
+                    <option value="quantity">2
+                    </option>
+                    <option value="quantity">3
+                    </option>
+                    <option value="quantity">4
+                    </option>
+                    <option value="quantity">5
+                    </option></select>
+                </td>
+                <td><select id="Amount" name="amount">
+                    <option value="amount">1000-2000php
+                    </option>
+                    <option value="quantity">2000-3000php
+                    </option>
+                    <option value="quantity">3000-4000php
+                    </option>
+                    <option value="quantity">4000-5000php
+                    </option>
+                    <option value="quantity">5000-6000php
+                    </option></select>
+                </td>
+                <td><select id="name" name="name">
+                    <option value="kean">Kean</option>
+                    <option value="jason">Jason</option>
+                    <option value="sean">Sean</option>
+                    <option value="ampoy">Ampoy</option>
+                    <option value="junjun">Junjun</option></select>
+                </td>
+                <td><select id="mode of payment" name="mode of payment">
+                    <option value="Cash
+                    ">Cash</option>
+                    <option value="Checks">Checks</option>
+                    <option value="Debit cards">Debit cards</option>
+                    <option value="Credit cards">Credit cards</option>
+                    <option value="Mobile payments">Mobile payments.</option><option value="Mobile payments">Mobile payments
+                    </option>
+                    </select>
+                </td>
+                <td><select id="terms of payment" name="Terms of payment">
+                    <option value="pia
+                    ">PIA/ Payment in advance</option>
+                    <option value="net">Payment expected within 90 days</option>
+                    <option value="EOM/ End of month">EOM/ End of month</option>
+                    <option value="MFI"> 21st of the month</option>
+                    <option value="COD">COD/ Cash on delivery</option><option value="CND">CND/ Cash next delivery
+                    </option>
+                    <option value="CBS">CBS/ Cash before shipment</option><option value="CIA">Cash in advance
+                    </option>
+                    </select>
+                </td>
+                <td>
+                    <input type="date" id="date" name="date" placeholder="03/26/02"required>
+                </td>
+                <td><select id="status" name="status">
+                    <option value="received
+                    ">Received</option>
+                    <option value="not yet received">Not yet received</option>
+                    </select>
+                </td> 
+            </tr>
+            <tr>
+                <td><select id="name" name="name">
+                    <option value="Caricature drawing">Caricature drawing</option>
+                    <option value="Cartoon drawing">Cartoon drawing</option>
+                    <option value="Figure drawing">Figure drawing</option>
+                    <option value="Gesture drawing">Gesture drawing</option>
+                    <option value="Line drawing">Line drawing</option>
+                    <option value="Perspective drawing">Perspective drawing</option>
+                    <option value="Photorealism">Photorealism</option>
+                    <option value="Pointillism">Pointillism</option></select>
+                </td>
+                <td><select id="quantity" name="quantity">
+                    <option value="quantity">1
+                    </option>
+                    <option value="quantity">2
+                    </option>
+                    <option value="quantity">3
+                    </option>
+                    <option value="quantity">4
+                    </option>
+                    <option value="quantity">5
+                    </option></select>
+                </td>
+                <td><select id="Amount" name="amount">
+                    <option value="amount">1000-2000php
+                    </option>
+                    <option value="quantity">2000-3000php
+                    </option>
+                    <option value="quantity">3000-4000php
+                    </option>
+                    <option value="quantity">4000-5000php
+                    </option>
+                    <option value="quantity">5000-6000php
+                    </option></select>
+                </td>
+                <td><select id="name" name="name">
+                    <option value="kean">Kean</option>
+                    <option value="jason">Jason</option>
+                    <option value="sean">Sean</option>
+                    <option value="ampoy">Ampoy</option>
+                    <option value="junjun">Junjun</option></select>
+                </td>
+                <td><select id="mode of payment" name="mode of payment">
+                    <option value="Cash
+                    ">Cash</option>
+                    <option value="Checks">Checks</option>
+                    <option value="Debit cards">Debit cards</option>
+                    <option value="Credit cards">Credit cards</option>
+                    <option value="Mobile payments">Mobile payments.</option><option value="Mobile payments">Mobile payments
+                    </option>
+                    </select>
+                </td>
+                <td><select id="terms of payment" name="Terms of payment">
+                    <option value="pia
+                    ">PIA/ Payment in advance</option>
+                    <option value="net">Payment expected within 90 days</option>
+                    <option value="EOM/ End of month">EOM/ End of month</option>
+                    <option value="MFI"> 21st of the month</option>
+                    <option value="COD">COD/ Cash on delivery</option><option value="CND">CND/ Cash next delivery
+                    </option>
+                    <option value="CBS">CBS/ Cash before shipment</option><option value="CIA">Cash in advance
+                    </option>
+                    </select>
+                </td>
+                <td>
+                    <input type="date" id="date" name="date" placeholder="03/26/02"required>
+                </td>
+                <td><select id="status" name="status">
+                    <option value="received
+                    ">Received</option>
+                    <option value="not yet received">Not yet received</option>
+                    </select>
+                </td> 
+            </tr>
+            <tr>
+                <td><select id="name" name="name">
+                    <option value="Caricature drawing">Caricature drawing</option>
+                    <option value="Cartoon drawing">Cartoon drawing</option>
+                    <option value="Figure drawing">Figure drawing</option>
+                    <option value="Gesture drawing">Gesture drawing</option>
+                    <option value="Line drawing">Line drawing</option>
+                    <option value="Perspective drawing">Perspective drawing</option>
+                    <option value="Photorealism">Photorealism</option>
+                    <option value="Pointillism">Pointillism</option></select>
+                </td>
+                <td><select id="quantity" name="quantity">
+                    <option value="quantity">1
+                    </option>
+                    <option value="quantity">2
+                    </option>
+                    <option value="quantity">3
+                    </option>
+                    <option value="quantity">4
+                    </option>
+                    <option value="quantity">5
+                    </option></select>
+                </td>
+                <td><select id="Amount" name="amount">
+                    <option value="amount">1000-2000php
+                    </option>
+                    <option value="quantity">2000-3000php
+                    </option>
+                    <option value="quantity">3000-4000php
+                    </option>
+                    <option value="quantity">4000-5000php
+                    </option>
+                    <option value="quantity">5000-6000php
+                    </option></select>
+                </td>
+                <td><select id="name" name="name">
+                    <option value="kean">Kean</option>
+                    <option value="jason">Jason</option>
+                    <option value="sean">Sean</option>
+                    <option value="ampoy">Ampoy</option>
+                    <option value="junjun">Junjun</option></select>
+                </td>
+                <td><select id="mode of payment" name="mode of payment">
+                    <option value="Cash
+                    ">Cash</option>
+                    <option value="Checks">Checks</option>
+                    <option value="Debit cards">Debit cards</option>
+                    <option value="Credit cards">Credit cards</option>
+                    <option value="Mobile payments">Mobile payments.</option><option value="Mobile payments">Mobile payments
+                    </option>
+                    </select>
+                </td>
+                <td><select id="terms of payment" name="Terms of payment">
+                    <option value="pia
+                    ">PIA/ Payment in advance</option>
+                    <option value="net">Payment expected within 90 days</option>
+                    <option value="EOM/ End of month">EOM/ End of month</option>
+                    <option value="MFI"> 21st of the month</option>
+                    <option value="COD">COD/ Cash on delivery</option><option value="CND">CND/ Cash next delivery
+                    </option>
+                    <option value="CBS">CBS/ Cash before shipment</option><option value="CIA">Cash in advance
+                    </option>
+                    </select>
+                </td>
+                <td>
+                    <input type="date" id="date" name="date" placeholder="03/26/02"required>
+                </td>
+                <td><select id="status" name="status">
+                    <option value="received
+                    ">Received</option>
+                    <option value="not yet received">Not yet received</option>
+                    </select>
+                </td>                
+            </tr>
+        </table><br>
+        
+        <form>
+            <input class="form-button" type="submit" value="Submit">
+        </form>
+        <br>
+                
+        <a href="art_scm_edit_supply-chain-management.html">Back</a>
+    </body>
+</html>

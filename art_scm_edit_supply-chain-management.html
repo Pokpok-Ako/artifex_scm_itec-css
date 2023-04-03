@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Supply Chain Management</title>
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
+    <body>
+			<br><br><br><br><br><br><br>
+	
+        <h1 class="form-header">Supply Chain Management</h1>
+        <form class="form-container">
+            <label class="form-label" for="supply chain management"> Choose Transaction</label>
+            <select name="links" id="links" onchange="window.location.href=this.value">
+                <option placeholder="-"></option>
+                <option value="art_scm_edit_inbound-transaction.htm">Inbound Transaction</option>
+                <option value="art_scm_edit_outbound-transaction.htm">Outbound Transaction</option>
+                <option value="art_scm_edit_warehouse-inventory.htm">Warehouse Inventory</option>
+            </select>
+        </form>
+    </body>
+
+</html>
